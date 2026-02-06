@@ -343,25 +343,6 @@ Click **中文** or **EN** in the navigation bar.
 
 ---
 
-## License & Copyright
-
-**© 2026 StayLive. All Rights Reserved.**
-
-This project is provided for **viewing and educational purposes only**.
-
-### Restrictions
-
-- **No Commercial Use** — You may not use this code, design, or any part of this project for commercial purposes without explicit written permission from the author.
-- **No Redistribution** — You may not copy, modify, merge, publish, distribute, sublicense, or sell copies of this software.
-- **No Code Scraping** — Automated collection, scraping, or harvesting of this codebase is strictly prohibited.
-- **No Derivative Works** — You may not create derivative works based on this project without authorization.
-
-### Permitted Uses
-
-- Viewing the source code for learning purposes
-- Personal, non-commercial study and research
-- Referencing code patterns with proper attribution
-
 ### Contact for Licensing
 
 For commercial licensing inquiries, partnerships, or permissions, please contact:
