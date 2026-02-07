@@ -1,6 +1,6 @@
 # StayLive
 
-**v3.5.0** | Real-time Hotel Pulse
+**v3.6.0** | Real-time Hotel Pulse
 
 [![Stars](https://img.shields.io/github/stars/Zongyeeeee/StayLive-HotelPulse?style=flat)](https://github.com/affaan-m/everything-claude-code/stargazers)
 [![Live](https://img.shields.io/badge/Live-stay--live.com-00D4FF?style=flat)](https://stay-live.com)
