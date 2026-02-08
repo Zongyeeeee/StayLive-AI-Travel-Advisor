@@ -1,6 +1,6 @@
 # StayLive
 
-**v3.7.0** | Real-time Hotel Pulse
+**v3.8.0** | Real-time Hotel Pulse
 
 [![Stars](https://img.shields.io/github/stars/Zongyeeeee/StayLive-HotelPulse?style=flat)](https://github.com/Zongyeeeee/StayLive-HotelPulse/stargazers)
 [![Live](https://img.shields.io/badge/Live-stay--live.com-00D4FF?style=flat)](https://stay-live.com)
@@ -10,9 +10,38 @@
 
 ---
 
-## What's New in v3.7.0
+## What's New in v3.8.0
 
-### Mobile Responsive Optimization
+### Cancel Subscription
+Subscription management for Pro and Ultra members:
+
+- **Cancel Auto-Renewal** — Cancel subscription while keeping access until period end
+- **Stripe Integration** — Syncs `cancel_at_period_end` status via Stripe API
+- **Cancellation Notice** — Yellow warning banner shows remaining access period
+- **Webhook Sync** — `customer.subscription.updated` event keeps database in sync
+- **Re-subscribe Ready** — Cancellation state resets automatically on new subscription
+
+### Password Reset with Rate Limiting
+Secure password recovery flow with abuse prevention:
+
+- **Forgot Password** — Send reset link via email from the sign-in page
+- **PKCE Code Exchange** — Secure token verification for password reset links
+- **Rate Limited** — One reset email per user per 24 hours to prevent abuse
+- **Expired Link Handling** — Clear error messages for expired or invalid reset links
+
+### Terms of Service & Privacy Policy
+Legal compliance pages with full bilingual support:
+
+- **Terms of Service** — 15 sections covering service description, subscriptions, AI disclaimers, indemnification, force majeure, and governing law (Victoria, Australia)
+- **Privacy Policy** — 12 sections including third-party services (Supabase, Stripe, DeepSeek, Resend), data security, Australian Privacy Act compliance
+- **Emergency Disclaimer** — Prominent notice that StayLive is not an emergency service
+- **Google Maps Terms** — Links to Google Maps/Earth Additional Terms of Service
+- **Footer Links** — Terms and Privacy links added to global footer
+- **Login Agreement** — "By signing in, you agree to our Terms & Privacy" on login page
+
+### Previous: v3.7.0 — Mobile & Multi-Channel Auth
+
+#### Mobile Responsive Optimization
 Full mobile-first responsive redesign for seamless experience across all devices:
 
 - **Adaptive Navigation** — Collapsible nav bar with mobile-friendly controls
@@ -20,7 +49,7 @@ Full mobile-first responsive redesign for seamless experience across all devices
 - **Touch-Optimized Forms** — Larger tap targets, proper input sizing, and mobile keyboard support
 - **Flexible Layouts** — CSS grid and flexbox adjustments for small screens
 
-### Multi-Channel Authentication
+#### Multi-Channel Authentication
 Expanded login options beyond Google OAuth:
 
 - **Email/Password Sign Up** — Register with any email, verified via 6-digit OTP code
